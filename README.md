@@ -1,52 +1,91 @@
 Математическая статистика
 ========
 
-Онлайн-курс по математической статистике. Создан в рамках специализации __NAME.__ Всего в ней __NAME__ курсов:
+Привет, Олимпийский! Это репозиторий для линейки онлайн-курсов по статистике. Она создана в рамках специализации __[От статистики до нейросетей:](https://www.coursera.org/specializations/machine-learning-from-statistics-to-neural-networks)__
 
-- Анализ
-- Данных
-- Да
+- [Сбор и анализ данных в python](https://www.coursera.org/learn/data-collection-and-analysis-in-python?specialization=machine-learning-from-statistics-to-neural-networks)
+- [Основы машинного обучения](https://www.coursera.org/learn/machine-learning-foundations?specialization=machine-learning-from-statistics-to-neural-networks)
+- [Математическая статистика и AB-тестирование](https://www.coursera.org/learn/mathematical-statistics-and-ab-testing)
+- [Продвинутые методы машинного обучения](https://www.coursera.org/learn/advanced-machine-learning-methods?specialization=machine-learning-from-statistics-to-neural-networks)
+- [Статистические методы анализа данных](https://www.coursera.org/learn/data-analysis-statistical-methods?specialization=machine-learning-from-statistics-to-neural-networks)
 
-- Материалы лекций лежат в папках ./week*
-- Любые технические вопросы, идеи, баги можно обсуждать на форуме курсеры либо закидывать в [issue]( )
-- Для прохождения курса вам понадобится стандартный дистрибутив python3
+Вам этого мало и хотите больше? Добро пожаловать в специализацию [Промышленное машинное обучение.](https://www.coursera.org/specializations/industrial-machine-learning)
 
-## Идеология курсов
+
+## Про репозиторий
+
+- Материалы лекций лежат в папках `./week*`, недели 1-5 относятся к курсу [Сбор и анализ данных в python,](https://www.coursera.org/learn/data-collection-and-analysis-in-python?specialization=machine-learning-from-statistics-to-neural-networks) недели 6-11 к курсу [Математическая статистика и AB-тестирование,](https://www.coursera.org/learn/mathematical-statistics-and-ab-testing) недели 12-16 к курсу [Статистические методы анализа данных.](https://www.coursera.org/learn/data-analysis-statistical-methods?specialization=machine-learning-from-statistics-to-neural-networks) Сквозная нумерация используется для удобства :)
+- Они же продублированны на coursera, можно скачивать их прямо с неё
+- Чтобы скачать репозиторий полностью, нажмите зелёную кнопку `Code`, а дальше `Download ZIP`, конечно же можно просто склонировть репозиторий, если вы умеете пользоваться _git_
+- Если вы хотите скачать из репозитория конкретную папку, просто вставьте ссылку на неё [в сервис для скачки](https://minhaskamal.github.io/DownGit/#/home)
+- Для прохождения курса вам понадобятся: стандартный дистрибутив python 3, ручка синяя, ручка чёрная, ручка цветная и тетрадка
+
+## Идеология и призыв
 
 - Учим статистику, смотрим какое место она занимает среди наук о данных
-- Всегда сначала понимаем, как работает концепт, потом смотрим на код, никаких блэкбоксов
+- Всегда сначала понимаем, как работает концепт, а потом смотрим на код, никаких блэкбоксов
+- Много идей, попытка разобраться в том как устроен мир и что будет дальше
 
-## Почиташки
+
+## Материалы для чтения
 
 Обратите внимание, что к каждой неделе курса есть README со списком полезных материалов.
 
-* [Учебник Черновой по терверу,](https://github.com/FUlyankin/r_probability/raw/master/books/Хороший%20учебник%20по%20терверу.pdf) довольно короткий, несложный и ёмкий, очень рекомендую прочитать
-* [Учебник Черновой по матстату,](https://github.com/FUlyankin/r_probability/raw/master/books/Хороший%20учебник%20по%20матстату.pdf) такой же годный как и по терверу
-* [Занимательная статистика Лагутина,](https://yadi.sk/i/UuWhEn_L4X_Rwg) немного глубже, чем Чернова, выводит на новый уровень понимания :)
-* [Книга про парадоксы в теорвере и матстате,](https://github.com/FUlyankin/r_probability/raw/master/books/Sekej%20G.%20_Paradoksy%20v%20teorii%20verojatnostej_.pdf) читается немного туго, но в целом интересно
-* [Культурный код.](https://github.com/bdemeshev/probability_dna) Сборник красивых нетривиальных задач по терверу и матстату. Слабо решить их все?
+__На русском:__
 
+* [Учебник Черновой по терверу,](https://github.com/FUlyankin/r_probability/raw/master/books/Хороший%20учебник%20по%20терверу.pdf) довольно короткий, несложный и ёмкий
+* [Учебник Черновой по матстату,](https://github.com/FUlyankin/r_probability/raw/master/books/Хороший%20учебник%20по%20матстату.pdf) так же хорош, как и книга по терверу, но некоторых тем не хватает
 
-### Книги по терверу и матстату на английском:
+> У Черновой менее популярное определение функции распределения, $F(t)=P(X<t)$, в нашем курсе мы используем $F(t)=P(X\leq t)$, будьте аккуратны.
 
-* [Pilon C.D. Probabilistic programming and Bayesian methods for hackers,](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) можно найти перевод на русский язык, если искать <<Вероятностное программирование на Python>>  (русские локализаторы косячат не только в названиях фильмов)
-* [Nau R. Statistical forecasting: Notes on regression and time series analysis. Fuqua School of Business, Duke University,](https://people.duke.edu/~rnau/411home.htm) вроде бы неплохая книга по временным рядам
-* Целые [10 глав](http://personal.psu.edu/drh20/asymp/fall2006/lectures/) разных сходимостей и задачек по ним (не уверен, что сейчас вы это осилите, но выглядит годно)
+* [Наглядная математическая статистика Лагутина](http://www.1variant.ru/content/uchebniki/matematika/650.pdf), книга глубже, чем Чернова и немного сложнее
+* [Культурный код,](https://github.com/bdemeshev/probability_dna) сборник красивых нетривиальных задач по терверу и матстату
+
+__На английском:__
+
 * [Coock boock](http://statistics.zone/) по терверу и матстату в 10 страницах
+* [Pilon C.D. Probabilistic programming and Bayesian methods for hackers,](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) можно найти перевод на русский язык, если искать <<Вероятностное программирование на Python>>  (русские локализаторы косячат не только в названиях фильмов)
+* [Hyndman, R.J., Athanasopoulos G. Forecasting: principles and practice,](https://otexts.com/fpp2/) отличный вводный учебник по временным рядам
+* [Blitzstein, Hwang, курс Statistics 110:](https://projects.iq.harvard.edu/stat110) книга, видеолекции, листки с упражнениями, теория вероятностей до статистики, но с MCMC и упражнениями в R.
 
-
-### Другие очень крутые источники:
+__Другие очень крутые источники:__
 
 * [Визуализации по терверу и матстату.](http://students.brown.edu/seeing-theory/) Можно посмотреть на условную вероятность и многое другое своими глазами.
-* [Репозиторий по теории вероятностей](http://bdemeshev.github.io/pr201/) от Демешева Б.Б. Рекомендую посмотреть видеозаписи семинаров. Там решается много экстраординарных задач, которые встречаются на собеседованиях.
-* [Тест по теории вероятностей для школьников из этого репозитория.](https://github.com/FUlyankin/r_probability/blob/master/books/intro_test.pdf) Слабо ответить на все вопросы верно?
-* [Набор лекций по рискам от Ильи Езепова.](hhttps://rpubs.com/iezepov) Море теории вероятностей для финансов и не только. Кстати говорая, на [Rpubs](https://rpubs.com/) можно найти много других приятных тетрадок с кодом на R.
+* [Репозиторий по теории вероятностей и статистике](http://bdemeshev.github.io/pr201/) от Бориса Демешева с кучей полезных штук
+* [Набор лекций по рискам от Ильи Езепова](hhttps://rpubs.com/iezepov)
+
 
 # Благодарности
 
-- Дмитрий Сергеев
-- Катя Лобачёва
-- Борис Демешев
-- Саша Романенко
-- Все бета-тестеры, которые искали ошибки
--
+Спасибо всем всем всем, кто принял участие в разработке этих курсов, а именно:
+
+__Вычитка материалов и мудрые советы:__  
+
+- Лобачёва Екатерина
+
+__Помощь с материалами:__
+
+- Сергеев Дмитрий
+- Демешев Борис
+- Лобачёва Екатерина
+
+__Ассистенство:__
+
+- Романенко Александра
+- Айрапетян Жирайр
+
+__Съёмки, их организация, монтаж и отсмотр материала:__
+
+- Капчинский Анатолий
+- Савилова Ксения
+
+__Организация всех процессов:__
+
+- Застрогина Екатерина
+- Сапунова Алёна
+
+__Армия бета-тестеров, а в особенности:__
+
+- Алиев Самир,
+- Евстафьев Сергей
+- Хмелевской Егор

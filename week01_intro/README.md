@@ -14,6 +14,6 @@ __Смысл недели:__  Вспоминаем основные опреде
 * [Набор интерактивных визуализаций по терверу и матстату](https://seeing-theory.brown.edu/index.html)
 * [Свой датасет по точкам](http://robertgrantstats.co.uk/drawmydata.html)
 * [Свой датасет по картинке](https://apps.automeris.io/wpd/)
-* [Тест по теории вероятностей для школьников из этого репозитория.](https://github.com/FUlyankin/r_probability/blob/master/books/intro_test.pdf) Слабо ответить на все вопросы верно?
+* [Тест по теории вероятностей для школьников](https://github.com/FUlyankin/r_probability/blob/master/books/intro_test.pdf) Слабо ответить на все вопросы верно?
 
 -------------------

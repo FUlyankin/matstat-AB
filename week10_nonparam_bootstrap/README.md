@@ -17,6 +17,7 @@ __Смысл недели:__  Продолжаем добавлять на сх�
 
 ## Ещё материалы:
 
+* [Очень добротный гайд про статистические тесты и бустрап для продуктовых метрик от vk](https://medium.com/@vktech/practitioners-guide-to-statistical-tests-ed2d580ef04f)
 * [Краткое руководство по практическому бутстрапу](https://www.litres.ru/rudolf-erih-raspe/priklucheniya-barona-munhauzena/?_openstat=ZGlyZWN0LnlhbmRleC5ydTsxODAwMTQyNjs0NjA3NzQ4NjYwO3lhbmRleC5ydTpndWFyYW50ZWU&k50id=0100000010608585986_&utm_content=v2%7C%7C4607748660%7C%7C10608585986%7C%7CПриключения%20барона%20Мюнхаузена%20книга%7C%7C3%7C%7Cother%7C%7Cnone%7C%7Csearch%7C%7Cno&utm_medium=cpc&utm_source=yandex&utm_term=Приключения%20барона%20Мюнхаузена%20книга&yclid=4370474012296902652)
 
 
