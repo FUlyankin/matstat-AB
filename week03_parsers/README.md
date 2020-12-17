@@ -16,5 +16,4 @@ __Смысл недели:__ Перед тем, как данные анализ
 * Другие популярные API: [Twitter,](https://developer.twitter.com/en/docs) [youtube,](https://developers.google.com/youtube/v3/) [google maps,](https://developers.google.com/maps/documentation/) [aviasales,](https://www.aviasales.ru/API) [яндекс,](https://yandex.ru/dev/translate/) любые другие сервисы :)
 
 
-
--------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)

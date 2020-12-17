@@ -21,4 +21,4 @@ __Смысл недели:__  На прошлой неделе у нас уже 
 * [Примеры хороших визуализаций](https://www.reddit.com/r/dataisbeautiful/)
 * Статьи про визуализацию в блоге Александра Дьяконова: [нулевая,](https://dyakonov.org/2017/10/06/визуализация-часть-0/) [первая](https://dyakonov.org/2017/10/30/визуализация-часть-1/) и [вторая](https://dyakonov.org/2016/11/08/визуализации)
 
--------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)

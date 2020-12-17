@@ -9,4 +9,4 @@ __Смысл недели:__  Накидываем схему математич
 * [Youtube и выборки без возвращения](https://sobopedia.azurewebsites.net/Exercises/Details?id=177)
 
 
---------------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)

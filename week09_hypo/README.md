@@ -9,4 +9,4 @@ __Смысл недели:__  Про союзников и доверитель�
 * [Маг, зелья, ошибка 1 и 2 рода](https://sobopedia.azurewebsites.net/Exercises/Details?id=113)
 
 
---------------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)

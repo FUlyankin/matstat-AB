@@ -15,4 +15,4 @@ __Смысл недели:__  Продолжаем манипулировать 
 * [Стикер It's a trap](https://github.com/FUlyankin/stickers/blob/master/2-itog_stickers/dummy_trap.png)
 
 
--------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)

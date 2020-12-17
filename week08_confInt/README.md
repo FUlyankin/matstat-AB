@@ -9,4 +9,4 @@ __Смысл недели:__  До этого мы обсудили асимпт
 * [Асимптотические доверительные интервалы и ЦПТ](https://www.stat.umn.edu/geyer/s06/5102/notes/ci.pdf)
 * [Вор должен сидеть в тюрьме:](https://sobopedia.azurewebsites.net/Exercises/Details?id=183) строим точный доверительный интервал для параметра экспоненциального распределения
 
---------------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)

@@ -16,4 +16,4 @@ __Смысл недели:__  Вспоминаем основные опреде
 * [Свой датасет по картинке](https://apps.automeris.io/wpd/)
 * [Тест по теории вероятностей для школьников](https://github.com/FUlyankin/r_probability/blob/master/books/intro_test.pdf) Слабо ответить на все вопросы верно?
 
--------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)

@@ -14,4 +14,4 @@ __Смысл недели:__  говорим про то, как на практ
 * __Рекламная интеграция:__ [курс по эконометрике](https://www.coursera.org/learn/ekonometrika) от ББ Демешева и Вышки :3
 
 
---------------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)

@@ -18,4 +18,4 @@ __Смысл недели:__  Для того, чтобы с головой по
 * [Эволюция нормального распределения](https://www.maa.org/sites/default/files/pdf/upload_library/22/Allendoerfer/stahl96.pdf)
 * [Геометрия распределений и не только :)](https://github.com/olyagnilova/gauss-markov-pythagoras/blob/master/paper.pdf)
 
--------------------
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)
