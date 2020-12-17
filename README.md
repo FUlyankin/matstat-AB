@@ -1,4 +1,4 @@
-Математическая статистика
+Прикладная статистика
 ========
 
 Привет, Олимпийский! Это репозиторий для линейки онлайн-курсов по статистике. Она создана в рамках специализации __[От статистики до нейросетей:](https://www.coursera.org/specializations/machine-learning-from-statistics-to-neural-networks)__
@@ -89,3 +89,6 @@ __Армия бета-тестеров, а в особенности:__
 - Алиев Самир,
 - Евстафьев Сергей
 - Хмелевской Егор
+
+
+![](https://raw.githubusercontent.com/FUlyankin/matstat_coursera/main/week01_intro/logo.png)
