@@ -9,7 +9,7 @@
 - [Продвинутые методы машинного обучения](https://www.coursera.org/learn/advanced-machine-learning-methods?specialization=machine-learning-from-statistics-to-neural-networks)
 - [Статистические методы анализа данных](https://www.coursera.org/learn/data-analysis-statistical-methods?specialization=machine-learning-from-statistics-to-neural-networks)
 
-Вам этого мало и хотите больше? Добро пожаловать в специализацию [Промышленное машинное обучение.](https://www.coursera.org/specializations/industrial-machine-learning)
+Вам этого мало и хотите больше? Добро пожаловать в специализацию [Промышленное машинное обучение.](https://www.coursera.org/specializations/industrial-machine-learning) Подзабыли математику, но хотите пройти наши курсы? Тогда смотрите специализацию [Математика для анализа данных](https://www.coursera.org/specializations/maths-for-data-analysis)
 
 
 ## Про репозиторий
