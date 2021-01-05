@@ -14,7 +14,6 @@ __Смысл недели:__  Вспоминаем основные опреде
 * [10-минутное введение в pandas на английском](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
 * [Интерактивный туториал по pandas от datacamp на английском](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python)
 * [Базовая визуализация в pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
-
 * [Набор интерактивных визуализаций по терверу и матстату](https://seeing-theory.brown.edu/index.html)
 * [Свой датасет по точкам](http://robertgrantstats.co.uk/drawmydata.html)
 * [Свой датасет по картинке](https://apps.automeris.io/wpd/)
