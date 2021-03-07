@@ -1,0 +1,81 @@
+name	stimuli	Ear moving	Head moving	Tail moving	Vocalising	Displacement	Total Score
+Cr	Noun 1	1	0	0	0	0	1
+Cr	Noun 2	1	1	0	0	0	2
+Cr	Noun 3	1	1	0	0	0	2
+Cr	Noun 4	0	0	0	0	0	0
+Cr	Test Cat's Name	1	0	0	0	0	1
+Ekcn	Noun 1	0	1	0	0	0	1
+Ekcn	Noun 2	0	1	0	0	0	1
+Ekcn	Noun 3	0	0	0	0	0	0
+Ekcn	Noun 4	0	1	0	0	0	1
+Ekcn	Test Cat's Name	0	0	0	0	0	0
+Icg	Noun 1	1	1	0	0	0	2
+Icg	Noun 2	1	1	0	0	0	2
+Icg	Noun 3	1	1	0	0	0	2
+Icg	Noun 4	1	1	0	0	0	2
+Icg	Test Cat's Name	1	1	0	0	0	2
+Knt	Noun 1	0	0	0	0	0	0
+Knt	Noun 2	0	0	0	0	0	0
+Knt	Noun 3	0	0	0	0	0	0
+Knt	Noun 4	0	0	0	0	0	0
+Knt	Test Cat's Name	0	0	0	0	0	0
+Kro	Noun 1	1	0	0	0	0	1
+Kro	Noun 2	1	1	1	0	0	3
+Kro	Noun 3	1	0	1	0	0	2
+Kro	Noun 4	1	1	0	0	0	2
+Kro	Test Cat's Name	1	1	0	0	0	2
+Krr	Noun 1	1	1	0	0	0	2
+Krr	Noun 2	0	1	0	0	0	1
+Krr	Noun 3	1	0	0	0	0	1
+Krr	Noun 4	0	1	0	0	0	1
+Krr	Test Cat's Name	0	1	0	0	0	1
+Kucn	Noun 1	0	1	0	0	0	1
+Kucn	Noun 2	0	1	0	0	0	1
+Kucn	Noun 3	0	0	0	0	0	0
+Kucn	Noun 4	0	0	0	0	0	0
+Kucn	Test Cat's Name	1	1	0	0	0	2
+Mm	Noun 1	1	1	0	0	0	2
+Mm	Noun 2	1	1	0	0	0	2
+Mm	Noun 3	1	1	0	0	0	2
+Mm	Noun 4	1	0	0	0	0	1
+Mm	Test Cat's Name	1	1	0	0	0	2
+Nk	Noun 1	1	1	0	0	0	2
+Nk	Noun 2	1	1	0	0	0	2
+Nk	Noun 3	1	1	0	0	0	2
+Nk	Noun 4	0	0	0	0	0	0
+Nk	Test Cat's Name	0	1	0	0	0	1
+Okr	Noun 1	1	0	0	0	0	1
+Okr	Noun 2	1	0	0	0	0	1
+Okr	Noun 3	1	0	0	0	0	1
+Okr	Noun 4	1	0	0	0	0	1
+Okr	Test Cat's Name	1	0	0	0	0	1
+Rnk	Noun 1	1	1	0	0	0	2
+Rnk	Noun 2	0	1	0	0	0	1
+Rnk	Noun 3	0	0	0	0	0	0
+Rnk	Noun 4	1	0	0	0	0	1
+Rnk	Test Cat's Name	1	1	0	0	0	2
+Sco	Noun 1	0	0	0	0	0	0
+Sco	Noun 2	0	0	0	0	0	0
+Sco	Noun 3	1	1	0	0	0	2
+Sco	Noun 4	0	0	0	0	0	0
+Sco	Test Cat's Name	1	1	0	0	0	2
+Sm	Noun 1	1	1	0	0	0	2
+Sm	Noun 2	1	1	0	0	0	2
+Sm	Noun 3	0	1	0	0	0	1
+Sm	Noun 4	1	1	0	0	0	2
+Sm	Test Cat's Name	1	1	0	0	0	2
+Sr	Noun 1	1	0	0	0	0	1
+Sr	Noun 2	0	0	0	0	0	0
+Sr	Noun 3	0	0	0	0	0	0
+Sr	Noun 4	0	0	0	0	1	1
+Sr	Test Cat's Name	1	0	0	0	0	1
+Te	Noun 1	1	1	0	0	0	2
+Te	Noun 2	1	1	0	0	0	2
+Te	Noun 3	1	1	0	0	0	2
+Te	Noun 4	1	1	0	0	0	2
+Te	Test Cat's Name	1	0	0	0	1	2
+Um	Noun 1	1	0	0	0	0	1
+Um	Noun 2	0	0	0	0	0	0
+Um	Noun 3	0	0	0	0	0	0
+Um	Noun 4	0	0	0	0	0	0
+Um	Test Cat's Name	1	0	0	0	0	1
