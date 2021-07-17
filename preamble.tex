@@ -1,0 +1,240 @@
+% пакеты для математики
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}  
+\mathtoolsset{showonlyrefs=true}  % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+
+\usepackage[british,russian]{babel} % выбор языка для документа
+\usepackage[utf8]{inputenc}          % utf8 кодировка
+
+% Основные шрифты 
+\usepackage{fontspec}         
+\setmainfont{Linux Libertine O}  % задаёт основной шрифт документа
+
+% Математические шрифты 
+\usepackage{unicode-math}     
+\setmathfont[math-style=upright]{Neo Euler} 
+
+\setmathfont[range={\mathbb, \mathop}]{Asana-Math.otf}
+
+%%%%%%%%%% Работа с картинками и таблицами %%%%%%%%%%
+\usepackage{graphicx} % Для вставки рисунков                
+\usepackage{graphics}
+\graphicspath{{images/}{pictures/}}   % папки с картинками
+
+\usepackage[figurename=Картинка]{caption}
+
+\usepackage{wrapfig}    % обтекание рисунков и таблиц текстом
+
+\usepackage{booktabs}   % таблицы как в годных книгах
+\usepackage{tabularx}   % новые типы колонок
+\usepackage{tabulary}   % и ещё новые типы колонок
+\usepackage{float}      % возможность позиционировать объекты в нужном месте
+\renewcommand{\arraystretch}{1.2}  % больше расстояние между строками
+
+
+%%%%%%%%%% Графики и рисование %%%%%%%%%%
+\usepackage{tikz, pgfplots}  % языки для графики
+%\pgfplotsset{compat=1.16}
+
+\usepackage{todonotes} % для вставки в документ заметок о том, что осталось сделать
+% \todo{Здесь надо коэффициенты исправить}
+% \missingfigure{Здесь будет Последний день Помпеи}
+% \listoftodos --- печатает все поставленные \todo'шки
+
+
+%%%%%%%%%% Внешний вид страницы %%%%%%%%%%
+
+\usepackage[paper=a4paper, top=20mm, bottom=15mm,left=20mm,right=15mm]{geometry}
+\usepackage{indentfirst}    % установка отступа в первом абзаце главы
+
+\usepackage{setspace}
+\setstretch{1.15}  % межстрочный интервал
+\setlength{\parskip}{4mm}   % Расстояние между абзацами
+% Разные длины в LaTeX: https://en.wikibooks.org/wiki/LaTeX/Lengths
+
+% свешиваем пунктуацию
+% теперь знаки пунктуации могут вылезать за правую границу текста, при этом текст выглядит ровнее
+\usepackage{microtype}
+
+% \flushbottom                            % Эта команда заставляет LaTeX чуть растягивать строки, чтобы получить идеально прямоугольную страницу
+\righthyphenmin=2                       % Разрешение переноса двух и более символов
+\widowpenalty=300                     % Небольшое наказание за вдовствующую строку (одна строка абзаца на этой странице, остальное --- на следующей)
+\clubpenalty=3000                     % Приличное наказание за сиротствующую строку (омерзительно висящая одинокая строка в начале страницы)
+\tolerance=10000     % Ещё какое-то наказание.
+
+% мои цвета https://www.artlebedev.ru/colors/
+\definecolor{titleblue}{rgb}{0.2,0.4,0.6} 
+\definecolor{blue}{rgb}{0.2,0.4,0.6} 
+%\definecolor{red}{rgb}{1,0,0.2} 
+\definecolor{green}{rgb}{0, 0.6, 0}
+\definecolor{purp}{rgb}{0.4,0,0.8} 
+
+\definecolor{red}{RGB}{213,94,0}
+\definecolor{yellow}{RGB}{240,228,66}
+
+
+% цвета из geogebra 
+\definecolor{litebrown}{rgb}{0.6,0.2,0}
+\definecolor{darkbrown}{rgb}{0.75,0.75,0.75}
+
+% Гиперссылки
+\usepackage{xcolor}   % разные цвета
+
+\usepackage{hyperref}
+\hypersetup{
+	unicode=true,           % позволяет использовать юникодные символы
+	colorlinks=true,       	% true - цветные ссылки
+	urlcolor=blue,          % цвет ссылки на url
+	linkcolor=black,          % внутренние ссылки
+	citecolor=green,        % на библиографию
+	breaklinks              % если ссылка не умещается в одну строку, разбивать её на две части?
+}
+
+% меняю оформление секций 
+\usepackage{titlesec}
+\usepackage{sectsty}
+
+% меняю цвет на синий
+\sectionfont{\color{titleblue}}
+\subsectionfont{\color{titleblue}}
+\renewcommand{\thesection}{\arabic{section}.}
+
+
+% выбрасываю нумерацию страниц и колонтитулы 
+%\pagestyle{empty}
+
+% синие круглые бульпоинты в списках itemize 
+\usepackage{enumitem}
+
+\definecolor{itemizeblue}{rgb}{0, 0.45, 0.70}
+
+\newcommand*{\MyPoint}{\tikz \draw [baseline, fill=itemizeblue, draw=blue] circle (2.5pt);}
+\renewcommand{\labelitemi}{\MyPoint}
+
+\AddEnumerateCounter{\asbuk}{\@asbuk}{\cyrm}
+\renewcommand{\theenumi}{\asbuk{enumi}}
+
+% расстояние в списках
+\setlist[itemize]{parsep=0.4em,itemsep=0em,topsep=0ex}
+\setlist[enumerate]{parsep=0.4em,itemsep=0em,topsep=0ex}
+
+% эпиграфы
+\usepackage{epigraph}
+\setlength\epigraphwidth{.6\textwidth}
+\setlength\epigraphrule{0pt}
+
+%%%%%%%%%% Свои команды %%%%%%%%%%
+
+% Математические операторы первой необходимости:
+\DeclareMathOperator{\sgn}{sign}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Corr}{Corr}
+
+\DeclareMathOperator{\Pois}{Pois}
+\DeclareMathOperator{\Geom}{Geom}
+\DeclareMathOperator{\Exp}{Exp}
+
+%\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\Med}{Med}
+\DeclareMathOperator{\Mod}{Mod}
+\DeclareMathOperator*{\plim}{plim}
+
+% команды пореже
+\newcommand{\const}{\mathrm{const}}  % const прямым начертанием
+\newcommand{\iid}{\sim i\,i\,d\,\,}  % ну вы поняли...
+\newcommand{\fr}[2]{\ensuremath{^{#1}/_{#2}}}   % особая дробь
+\newcommand{\ind}[1]{\mathbbm{1}_{\{#1\}}} % Индикатор события
+\newcommand{\dx}[1]{\,\mathrm{d}#1} % для интеграла: маленький отступ и прямая d
+
+% одеваем шапки на частые штуки
+\def \hb{\hat{\beta}}
+\def \hs{\hat{s}}
+\def \hy{\hat{y}}
+\def \hY{\hat{Y}}
+\def \he{\hat{\varepsilon}}
+\def \hVar{\widehat{\Var}}
+\def \hCorr{\widehat{\Corr}}
+\def \hCov{\widehat{\Cov}}
+
+% Греческие буквы
+\def \a{\alpha}
+\def \b{\beta}
+\def \t{\tau}
+\def \dt{\delta}
+\def \e{\varepsilon}
+\def \ga{\gamma}
+\def \kp{\varkappa}
+\def \la{\lambda}
+\def \sg{\sigma}
+\def \tt{\theta}
+\def \Dt{\Delta}
+\def \La{\Lambda}
+\def \Sg{\Sigma}
+\def \Tt{\Theta}
+\def \Om{\Omega}
+\def \om{\omega}
+
+% Готика
+\def \mA{\mathcal{A}}
+\def \mB{\mathcal{B}}
+\def \mC{\mathcal{C}}
+\def \mE{\mathcal{E}}
+\def \mF{\mathcal{F}}
+\def \mH{\mathcal{H}}
+\def \mL{\mathcal{L}}
+\def \mN{\mathcal{N}}
+\def \mU{\mathcal{U}}
+\def \mV{\mathcal{V}}
+\def \mW{\mathcal{W}}
+
+% Жирные буквы
+\def \mbb{\mathbb}
+\def \RR{\mbb R}
+\def \NN{\mbb N}
+\def \ZZ{\mbb Z}
+\def \PP{\mbb{P}}
+\def \E{\mbb{E}}
+\def \QQ{\mbb Q}
+
+%%%%%%%%%% Теоремы %%%%%%%%%%
+\theoremstyle{plain} % Это стиль по умолчанию.  Есть другие стили.
+\newtheorem{theorem}{Теорема}[section]
+\newtheorem{proposition}{Утверждение}[section]
+\newtheorem{result}{Следствие}[theorem]
+% счётчик подчиняется теоремному, нумерация идёт по главам согласованно между собой
+
+% убирает курсив и что-то еще наверное делает ;)
+\theoremstyle{definition}         
+\newtheorem*{definition}{Определение}  % нумерация не идёт вообще
+
+
+%%%%%%%%%% Задачки и решения %%%%%%%%%%
+\usepackage{etoolbox}    % логические операторы для своих макросов
+\usepackage{environ}
+\newtoggle{lecture}
+
+\newcounter{probNum}[section]  % счётчик для упражнений 
+\NewEnviron{problem}[1]{%
+    \refstepcounter{probNum}% увеличели номер на 1 
+    {\noindent \textbf{\large \color{titleblue} Упражнение~\theprobNum~#1}  \\ \\ \BODY}
+    {}%
+  }
+
+% Окружение, чтобы можно было убирать решения из pdf
+\NewEnviron{sol}{%
+  \iftoggle{lecture}
+    {\noindent \textbf{\large Решение:} \\ \\ \BODY}
+    {}%
+  }
+ 
+% выделение по тексту важных вещей
+\newcommand{\indef}[1]{\textbf{ \color{green} #1}} 
+
+\usepackage[normalem]{ulem}  % для зачекивания текста
+
+% Если переключить в false, все solution исчезнут из pdf
+\toggletrue{lecture}
+%\togglefalse{lecture}
+

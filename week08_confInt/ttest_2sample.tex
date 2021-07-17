@@ -2,7 +2,7 @@
 \documentclass[12pt, a4paper, oneside]{article}
 
 % Можно вставить разную преамбулу
-\input{preamble}
+\input{../preamble}
 
 \title{\begin{center} \includegraphics[width=0.99\textwidth]{logo.png} \end{center}Равенство средних, неизвестные равные дисперсии}
 \date{ } %\today}
@@ -61,7 +61,7 @@ $$
 Получается, что
 
 \begin{equation*} 
-t = \frac{\bar{x} - \bar{y} - (\mu_x - \mu_y)}{\sqrt{\frac{\sigma^2}{n_x + n_y}}} : \sqrt{ \frac{ [(n_x - 1) \cdot s_x^2 + (n_y - 1) \cdot s_y^2] / \sigma^2} {(n_x + n_y - 2)}} \sim t(n_x + n_y - 2).
+t = \frac{\bar{x} - \bar{y} - (\mu_x - \mu_y)}{\sqrt{\frac{\sigma^2}{n_x} + \frac{\sigma^2}{n_y}}} : \sqrt{ \frac{ [(n_x - 1) \cdot s_x^2 + (n_y - 1) \cdot s_y^2] / \sigma^2} {(n_x + n_y - 2)}} \sim t(n_x + n_y - 2).
 \end{equation*} 
 
 Общая выборочная дисперсия будет считаться по формуле 
@@ -73,7 +73,7 @@ $$
 Две степени свободы расходуются на оценку двух средних. Упростим выражение 
 
 \begin{equation*} 
-t = \frac{\bar{x} - \bar{y} - (\mu_x - \mu_y)}{\sqrt{\frac{\sigma^2}{n_x + n_y}}} : \sqrt{ \frac{s^2} {\sigma^2}} =  \frac{\bar{x} - \bar{y} - (\mu_x - \mu_y)}{\sqrt{\frac{s^2}{n_x + n_y}}} \sim t(n_x + n_y - 2).
+t = \frac{\bar{x} - \bar{y} - (\mu_x - \mu_y)}{\sqrt{\frac{\sigma^2 \cdot (n_y + n_x)}{n_x \cdot n_y}}} : \sqrt{ \frac{s^2} {\sigma^2}} =  \frac{\bar{x} - \bar{y} - (\mu_x - \mu_y)}{\sqrt{\frac{s^2 \cdot (n_x + n_y)}{n_x \cdot  n_y}}} \sim t(n_x + n_y - 2).
 \end{equation*} 
 
 Получилось! Когда мы поделили $z$- статистику на функцию от $W$, неизвестная дисперсия заменилась на её оценку, а итоговая случайная величина имеет известное нам распределение Стьюдента. Эту случайную величину мы можем использовать для строительства доверительных интервалов и проверки гипотез. 
