@@ -6,7 +6,7 @@ __Смысл недели:__  Для того, чтобы с головой по
 ## Ссылки из презентации:
 
 * [Статья о самом опасном уравнении:](http://nsmn1.uh.edu/dgraur/niv/TheMostDangerousEquation.pdf) примеры того, как ЗБЧ появляется в нашей жизни и как плохо его игнорировать
-* [Трэд на Reddit](https://www.reddit.com/r/poland/comments/ber86s/distribution_of_fin al_exam_scores_in_poland/) про ЕГЭ в Польше
+* [Трэд на Reddit](https://www.reddit.com/r/poland/comments/ber86s/distribution_of_final_exam_scores_in_poland/) про ЕГЭ в Польше
 * [Генератор случайных чисел](https://www.random.org/) на основе атмосферных шумов
 * [Неплохой текст про взаимосвязи между распределениями](http://www.math.wm.edu/~leemis/2008amstat.pdf)
 * [Сборник сложных, но красивых задач по теории вероятностей "Культурный код",](https://github.com/bdemeshev/probability_dna/raw/master/probability_dna.pdf) в нём можно найти задачу про Удава Анатолия и багеты
