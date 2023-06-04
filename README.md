@@ -3,14 +3,7 @@
 
 Привет, Олимпийский! Это репозиторий для линейки онлайн-курсов по статистике. Она создана в рамках специализации __[От статистики до нейросетей:](https://www.coursera.org/specializations/machine-learning-from-statistics-to-neural-networks)__
 
-- [Сбор и анализ данных в python](https://www.coursera.org/learn/data-collection-and-analysis-in-python?specialization=machine-learning-from-statistics-to-neural-networks)
-- [Основы машинного обучения](https://www.coursera.org/learn/machine-learning-foundations?specialization=machine-learning-from-statistics-to-neural-networks)
-- [Математическая статистика и AB-тестирование](https://www.coursera.org/learn/mathematical-statistics-and-ab-testing)
-- [Продвинутые методы машинного обучения](https://www.coursera.org/learn/advanced-machine-learning-methods?specialization=machine-learning-from-statistics-to-neural-networks)
-- [Статистические методы анализа данных](https://www.coursera.org/learn/data-analysis-statistical-methods?specialization=machine-learning-from-statistics-to-neural-networks)
-
-Вам этого мало и хотите больше? Добро пожаловать в специализацию [Промышленное машинное обучение.](https://www.coursera.org/specializations/industrial-machine-learning) Подзабыли математику, но хотите пройти наши курсы? Тогда смотрите специализацию [Математика для анализа данных](https://www.coursera.org/specializations/maths-for-data-analysis)
-
+Раньше курс был выложен на курсере, сейчас можно найти его [пиратскую версию на youtube](https://www.youtube.com/@user-bg8cd4fn7d/playlists)
 
 ## Про репозиторий
 
