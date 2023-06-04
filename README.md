@@ -37,7 +37,7 @@ __На русском:__
 __На английском:__
 
 * [Coock boock](http://statistics.zone/) по терверу и матстату в 10 страницах
-* [Pilon C.D. Probabilistic programming and Bayesian methods for hackers,](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) можно найти перевод на русский язык, если искать <<Вероятностное программирование на Python>>  (русские локализаторы косячат не только в названиях фильмов)
+* [Pilon C.D. Probabilistic programming and Bayesian methods for hackers,](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) можно найти перевод на русский язык, если искать "Вероятностное программирование на Python" (русские локализаторы косячат не только в названиях фильмов)
 * [Hyndman, R.J., Athanasopoulos G. Forecasting: principles and practice,](https://otexts.com/fpp2/) отличный вводный учебник по временным рядам
 * [Blitzstein, Hwang, курс Statistics 110:](https://projects.iq.harvard.edu/stat110) книга, видеолекции, листки с упражнениями, теория вероятностей до статистики, но с MCMC и упражнениями в R.
 
