@@ -3,7 +3,7 @@
 
 Привет, Олимпийский! Это репозиторий для линейки онлайн-курсов по статистике. Она создана в рамках специализации __[От статистики до нейросетей:](https://www.coursera.org/specializations/machine-learning-from-statistics-to-neural-networks)__
 
-Раньше курс был выложен на курсере, сейчас можно найти его [пиратскую версию на youtube](https://www.youtube.com/@user-bg8cd4fn7d/playlists)
+Раньше курс был выложен на курсере, сейчас можно найти его [пиратскую версию на youtube](https://www.youtube.com/@Прикладнаястатистика/playlists)
 
 ## Про репозиторий
 
